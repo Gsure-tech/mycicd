@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Mycicd3Application {
     @GetMapping("/welcome")
     public String welcome(){
-        return"welcome to Abdulganiyu Deployed Docker app !";
+        return"welcome to Abdulganiyu Deployed Docker app ! I am with Shegun Shogo";
     }
 
     public static void main(String[] args) {
